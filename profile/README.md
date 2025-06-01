@@ -1,7 +1,3 @@
----
-title: "optimal2050"
-output: github_document
----
 Optimal 2050
 ================
 
@@ -11,7 +7,7 @@ A collection of open-source libraries and research frameworks designed to suppor
 
 ---
 
-<img src="https://raw.githubusercontent.com/optimal2050/multimod/refs/heads/main/docs/logo.png?token=GHSAT0AAAAAADCFLNE264AORYGUOVYKDE5Y2B3PKCA" alt="multimod logo" width="120" align="left" style="margin-right: 15px;"/> 
+<img src="https://optimal2050.github.io/multimod/logo.png" alt="multimod logo" width="120" align="left" style="margin-right: 15px;"/> 
 
 
 **[multimod](https://optimal2050.github.io/multimod/)**  
@@ -26,7 +22,7 @@ The `multimod` R package defines a domain-specific language (DSL) and internal r
 set of classes, methods, and functions that define a macro-language for
 energy system modeling within the R environment. This package offers a
 high-level, user-friendly interface that simplifies the development and
-analysis of complex energy models. 
+analysis of complex energy models. The package has been used—and shaped—by the development of several large-scale energy system models (including USENSYS, IDEEA, CEPRO - see below). It currently underway a major overhaul to integrate with `multimod` system and provide a more flexible and powerful modeling framework.
 
 ---
 
@@ -70,10 +66,13 @@ USENSYS is a linear programming optimization model for the United States energy 
 *Indian Zero Carbon Energy Pathways (IDEEA)* is a collaborative open energy modeling initiative to develop tools and scenarios of India’s energy transition. The project aims evaluation a broad set of scenarios with high penetration of variable renewables and identify a set of most cost-efficient options of deep decarbonization and carbon neutrality for India for broad public discussion.  
   
 ---
-<img src="https://avatars.githubusercontent.com/u/51479590?v=4" alt="multimod logo" width="130" align="left" style="margin-right: 25px;"/> 
+<!-- <img src="https://avatars.githubusercontent.com/u/51479590?v=4" alt="multimod logo" width="130" align="left" style="margin-right: 25px;"/> 
 
-**[opendecarbonization](https://github.com/opendecarbonization)**
+**[opendecarbonization](https://github.com/opendecarbonization)** -->
 ...
+
+
+
 
 ------------------------------------------------------------------------
 
