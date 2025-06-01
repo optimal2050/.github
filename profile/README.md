@@ -11,7 +11,7 @@ A collection of open-source libraries and research frameworks designed to suppor
 
 
 **[multimod](https://optimal2050.github.io/multimod/)**  
-The `multimod` R package has an ambition of linking together alternative math-modeling frameworks and languages, especially those used in energy system modeling. It defines a domain-specific language (DSL) and internal representation for mathematical programming models, enabling parsing, manipulation, and export of equations and constraints across multiple modeling languages including GAMS, Pyomo/Python, JuMP/Julia, GNU MathProg, and export to LaTeX. It might be particularly useful for researchers and practitioners who work with multiple modeling frameworks and need a consistent way to define and share their models, and test them across different platforms. The package is in early development, and currently supports a limited set of features (see {dev-status} on the package website).
+The `multimod` R package is an effort to bridge alternative mathematical modeling frameworks and languages, particularly those used in energy system modeling. It defines a domain-specific language (DSL) for representing mathematical programming models in a unified, abstract format. `multimod` currently supports partial parsing of models written in GAMS (General Algebraic Modeling System), and is being extended to JuMP (Julia), Pyomo (Python), and GMPL (GNU Math Programming Language). Parsed models in `multimod` format can be redered to LaTeX and other modeling languages. The package is designed to facilitate the exchange of mathematical models across different languages and solver frameworks, with the goal of simplifying the development, comparison, and reuse of complex optimization models in energy systems and beyond.
 
 ---
 
